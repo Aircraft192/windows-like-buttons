@@ -1,0 +1,37 @@
+/**
+ * @name Windows-Like-Buttons
+ * @author Aircraft192
+ * @version 1.0.0
+ * @description A theme making buttons look bigger to better integrate with Windows
+*/
+
+div[class*=withFrame_] {
+    height: 30px;
+    margin-top: 4px;
+}
+div[class*=winButton_] {
+    position: relative;
+    top: -4px;
+    cursor: default;
+    width: 45px;
+    height: 34px;
+    -webkit-app-region: no-drag;
+}
+div[class*=wordmarkWindows_] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 9px 3px;
+    color: var(--text-muted);
+}
+
+/* Content */
+div[class*=contentColumnDefault_] {
+    position: relative;
+    padding: 48px 40px 80px;
+}
+
+/* Exit Button */
+div[class*=toolsContainer_] {
+    padding-top: 48px; /* 31 */
+}
