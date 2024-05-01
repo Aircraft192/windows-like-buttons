@@ -3,6 +3,8 @@
 
 # Info
 This is a small Discord theme inspired by other applications on Windows that all follow a specific titlebar width. This theme fixes the titlebar width for Discord, which makes it easier to use.
+
+![Screenshot](resources/screenshot_01.png)
 # Installation
 This theme can be integrated with Vencord or BetterDiscord. Just download the [buttons.theme.css](./buttons.theme.css) file and put it into your "themes"-folder.
 # Contributing
