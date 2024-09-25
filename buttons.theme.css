@@ -6,12 +6,13 @@
 */
 
 div[class*=withFrame_] {
-    height: 30px;
-    margin-top: 4px;
+    height: 34px;
+    margin-top: 0px;
+    background-color: var(--bg-base-tertiary);
 }
 div[class*=winButton_] {
     position: relative;
-    top: -4px;
+    top: 0px;
     cursor: default;
     width: 45px;
     height: 34px;
@@ -21,7 +22,7 @@ div[class*=wordmarkWindows_] {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px 9px 3px;
+    padding: 8px 9px 3px;
     color: var(--text-muted);
 }
 
